@@ -1,4 +1,4 @@
 [[redirects]]
-  from = /*
-  to = ${CRDS_APP_CLIENT_ENDPOINT}/media:splat
+  from = "/*"
+  to = "${CRDS_APP_CLIENT_ENDPOINT}/media:splat"
   status = 200
