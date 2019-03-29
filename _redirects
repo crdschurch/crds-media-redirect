@@ -1,1 +1,1 @@
-/* ${env:CRDS_APP_CLIENT_ENDPOINT}/media:splat,200!
+/* ${CRDS_APP_CLIENT_ENDPOINT}/media:splat,200!
