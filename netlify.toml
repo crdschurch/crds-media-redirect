@@ -1,4 +1,8 @@
+# int build & anything that doesn't match below
+[build]
+  command = sed -i s/CRDS_APP_CLIENT_ENDPOINT_PLACEHOLDER/$CRDS_APP_CLIENT_ENDPOINT/g netlify.toml
+
 [[redirects]]
   from = "/*"
-  to = "https://int.crossroads.net/media:splat"
-  status = 200
+  to = "CRDS_APP_CLIENT_ENDPOINT_PLACEHOLDER/media:splat"
+  status = 301
